@@ -1,0 +1,18 @@
+﻿<Window x:Class="AlunosNotas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlunosNotas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Primeiro a nota :&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="225,74,0,0" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="225,114,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Segunda  a nota:" HorizontalAlignment="Left" Margin="220,159,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Margin="218,199,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Terceira a nota:" HorizontalAlignment="Left" Margin="200,254,0,0" VerticalAlignment="Top" Width="127"/>
+        <TextBox x:Name="txt3" HorizontalAlignment="Left" Margin="215,304,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <Button x:Name="btc" Content="Confrimado" HorizontalAlignment="Left" Margin="220,344,0,0" VerticalAlignment="Top" Click="btc_Click"/>
+    </Grid>
+</Window>
